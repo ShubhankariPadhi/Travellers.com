@@ -1,0 +1,94 @@
+.bgimg{
+
+
+    background-image: url('https://images.unsplash.com/photo-1564067123168-44333e4d4d08?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 440px;
+
+}
+.headerset{
+    padding-top: 100px;
+    box-sizing:border-box;
+
+}
+.headerset h3{
+    font-size: 42px;
+}
+/*input[type:text]
+{
+    font-family: fontawesome;
+}*/
+
+/* ///////offers//////////////////*/
+
+.offers{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.btn{
+
+}
+
+
+
+
+
+/*/////////// convenience ////////////*/
+.CONVENIENCEIMG{
+
+    background-image: url('https://s2.rdbuz.com/web/images/home/city_scape_app_download.png');
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 440px;
+
+
+
+}
+
+.CONVENIENCEIMG img{
+
+
+
+}
+
+
+/*////////////////////////////Responsive////////////////////////////////////////////////////////////////////*/
+@media(min-width: 992px ){
+
+}
+@media(min-width: 768px)and (max-width: 991px){
+
+
+
+    .headerset h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+
+}
+@media(min-width: 575px)and(max-width: 767px){
+
+}
+@media(min-width: 480px)and(max-width: 574px){
+
+
+}
+@media(max-width: 479px){
+
+
+    .headerset h3{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .offers .btn{
+
+    }
+
+
+}
