@@ -8,29 +8,23 @@
     height: 440px;
 
 }
-.headerset{
-    padding-top: 100px;
-    box-sizing:border-box;
+
+.relative {
+
+    position: absolute;
+    top: 300px;
+    left:80px;
+    padding: 20px 0px 0px;
+
 
 }
-.headerset h3{
-    font-size: 42px;
-}
-/*input[type:text]
-{
-    font-family: fontawesome;
-}*/
-
+input { font-family: 'FontAwesome'; }
 /* ///////offers//////////////////*/
 
 .offers{
     padding: 100px 0px 60px;
     height: 700px;
 }
-.btn{
-
-}
-
 
 
 
@@ -47,12 +41,11 @@
 
 
 }
-
-.CONVENIENCEIMG img{
-
-
-
+.conv_img2{
+    height: 500px;
+    width: 400px;
 }
+
 
 
 /*////////////////////////////Responsive////////////////////////////////////////////////////////////////////*/
@@ -61,22 +54,19 @@
 }
 @media(min-width: 768px)and (max-width: 991px){
 
-
-
-    .headerset h3{
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-
-
 }
 @media(min-width: 575px)and(max-width: 767px){
-
+    .conv_img2{
+        height: 300px;
+        width: 220px;
+    }
 }
 @media(min-width: 480px)and(max-width: 574px){
 
-
+    .conv_img2{
+        height: 200px;
+        width: 120px;
+    }
 }
 @media(max-width: 479px){
 
@@ -88,7 +78,26 @@
 
     .offers .btn{
 
+
+
+    }
+    .portfolio {
+        height: 3000px;
+
+    }
+    .portfolio h3{
+        font-size: 25px;
+        font-weight: bold;
     }
 
-
+    .conv_row h2{
+        font-weight: bold;
+    }
+    .conv_img2{
+        height: 200px;
+        width: 120px;
+    }
+    .convenience{
+        height: 1800px;
+    }
 }
