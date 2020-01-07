@@ -1,0 +1,31 @@
+.redbus-logo{
+  width: 79px;
+  height: 49px;
+  text-indent: -1000px;
+  float: left;
+}
+.promise-head-main{
+  margin-top : 13px;
+}
+.divClass{
+  height: 400px;
+  width : 260px;
+}
+.imageClass{
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+.divSpace{
+  height: 50px;
+}
+@media(max-width: 260px){
+  .divClass div{
+    height: 400px;
+    width : 260px;
+  }
+}
+@media(max-width: 574px){
+
+}

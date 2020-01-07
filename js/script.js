@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $(".hoverManage").mouseover(
+    function(){
+      $(".showManage").toggle();
+    }
+  );
+  /*$(".hoverManage").mouseout(
+    function(){
+      $(".showManage").hide();
+    }
+  );*/
+  $(".hoverSign").mouseover(
+    function(){
+      $(".showSign").toggle();
+    }
+  );
+  /*$(".hoverSign").mouseout(
+    function(){
+      $(".showSign").hide();
+    }
+  );*/
+});
