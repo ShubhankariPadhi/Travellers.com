@@ -1,1 +1,328 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        #bookingSection{
+        }
+        #cardsection , #beforefooter ,  #flagsection{
+            background-color: #d5d5d5;
+        }
+        .cardpara{
+            font-size: 35px;
+            font-weight: bold;
+            color:#330000;
+        }
+
+        .numbersection{
+            color: brown;
+        }
+        .numsection{
+            color: red;
+        }
+        #footer{
+            background-color:midnightblue ;
+            color: white;
+        }
+        .footerPara{
+            color: gray;
+        }
+
+        @media only screen and (max-width: 425px) {
+
+
+        }
+        @media only screen and (max-width: 1024px) {
+            .buttonfix{
+                margin-bottom: 10px;
+            }
+
+
+        }
+        @media only screen and (max-width: 1440px) {
+
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid" id="bookingSection">
+    <div class="row">
+        <div class="col-12 text-center my-2">
+            <p class="cardpara">When the deals are big, <br>the celebration are bigger</p>
+        </div>
+    </div>
+    <form>
+        <div class="form-row align-items-center justify-content-center mt-2">
+            <div class="col-sm-3">
+                <label class="sr-only" for="inlineFormInputGroupUsername1">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class='fas fa-building' style='font-size:16px'></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername1" placeholder="From">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class='fas fa-building' style='font-size:16px'></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="To">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <label class="sr-only" for="inlineFormInputGroupUsername3">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class='far fa-calendar-alt' style='font-size:16px'></i></div>
+                    </div>
+                    <input type="date" class="form-control" id="inlineFormInputGroupUsername3" placeholder="Username">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <label class="sr-only" for="inlineFormInputGroupUsername4">Username</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class='far fa-calendar-alt' style='font-size:16px'></i></div>
+                    </div>
+                    <input type="date" class="form-control" id="inlineFormInputGroupUsername4" placeholder="Username">
+                </div>
+            </div>
+            <div class="col-auto mt-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!--promise section-->
+<div class="container-fluid my-2 py-3 text-center" id="cardsection">
+    <div class="row">
+        <div class="col-12 text-center">
+            <i class='fab fa-cc-diners-club' style='font-size:80px;color:magenta'></i>
+            <p class="cardpara">WE PROMISE TO DELIVER</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6">
+            <div class="card">
+                <div class="card-body" style="height: 28rem">
+                    <i class='fas fa-money-bill-alt' style='font-size:80px;color: orchid'></i>
+                    <h5 class="card-title pt-5">MAXIMUM CHOICE</h5>
+                    <p class="pt-5 parafix"> We put our experience and relationships to good use and are available to solve your travel issues.</p>
+                    <a href="#" class="btn btn-outline-danger buttonfix" >click here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="height: 28rem">
+                <div class="card-body">
+                    <i class='fas fa-headphones' style='font-size:80px;color: dodgerblue'></i>
+                    <h5 class="card-title pt-5">SUPERIOR CUSTOMER SERVICE</h5>
+                    <p class="pt-4"> We always give you the lowest price with the best partner offers are available.</p>
+                    <a href="#" class="btn btn-outline-danger buttonfix ">click here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="height: 28rem">
+                <div class="card-body">
+                    <i class='fas fa-braille' style='font-size:80px;color: darkviolet'></i>
+                    <h5 class="card-title pt-5">LOWEST PRICE</h5>
+                    <p class="pt-5">We take care of your travel beyond ticketing by providing you with innovative.</p>
+                    <a href="#" class="btn btn-outline-danger buttonfix">click here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="height: 28rem">
+                <div class="card-body">
+                    <i class='fab fa-cotton-bureau' style='font-size:80px; color: fuchsia'></i>
+                    <h5 class="card-title pt-5">UNMATCHED BENIFITS</h5>
+                    <p class="pt-5"> We give you the widest number of travel options across thousands of routes are available.</p>
+                    <a href="#" class="btn btn-outline-danger buttonfix">click here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--award section-->
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="cardpara pt-5">AWARDS AND RECOGNITION</p>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <img src="https://lesutra.in/wp-content/uploads/Business-standard.png" style="height: 140px">
+            <h5 class="pt-1"><i>Most Innovative Company</i></h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <img src="http://static.financialexpress.com/m-images/M_Id_459409_Brand_Trust_Report.jpg" style="height: 140px">
+            <h5 class="pt-5"><i>Most Trusted Brand</i></h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <img src="https://dragontrail.com/wp-content/uploads/sites/6/2017/12/Eye-for-Travel.jpg" style="height: 120px">
+            <h5 class="pt-5"><i>Mobile Innovation Award</i></h5>
+        </div>
+    </div>
+</div>
+
+<!--flag section-->
+<div class="container-fluid" id="flagsection">
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="cardpara pt-5">OUR GLOBAL PRESENCE</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center my-3">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" style="height: 140px">
+            <p>India</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://cdn.britannica.com/48/1648-004-644EBE62/Flag-Indonesia.jpg" style="height: 140px">
+            <p>Indonesia</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg" style="height: 140px">
+            <p>Singapore</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center my-5">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://imgc.allpostersimages.com/img/print/u-g-Q12X7VK0.jpg?w=550&h=550&p=0" style="height: 140px">
+            <p>Malaysia</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2000px-Flag_of_Peru_%28state%29.svg.png" style="height: 140px">
+            <p>Peru</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/21zeZ%2BnG44L.jpg" style="height: 130px">
+            <p>Columbia</p>
+        </div>
+    </div>
+
+</div>
+
+<!--number growing section-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="cardpara pt-5">THE NUMBERS ARE GROWING !</p>
+        </div>
+    </div>
+
+    <div class="row text-center justify-content-center text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5 text-center">
+            <p class="numbersection">CUSTOMERS</p>
+            <h1 class="pt-1 numsection">08M</h1>
+            <P>dream travellers is trusted by over 8 million happy customers globally</P>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5 text-center">
+            <p class="numbersection">OPERATORS</p>
+            <h1 class="pt-1 numsection">2300</h1>
+            <P>network of over 2300 bus operators worldwide</P>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <p class="numbersection">BUS TICKET</p>
+            <h1 class="pt-1 numsection">100+M</h1>
+            <P>Over 100 million trips booked using DREAM TRAVELLERS</P>
+        </div>
+    </div>
+
+</div>
+
+<!--footer section-->
+<div class="container-fluid" id="beforefooter">
+    <div class="row justify-content-center text-center pt-4">
+        <div class="col-3 text-center">
+            <h5>Top Bus Root</h5>
+            <p>hyderabad to Banglore Bus</p>
+            <p>Banglore to chennai Bus</p>
+            <p>Pune to Banglore bus</p>
+            <p>Mumbai to Banglore Bus</p>
+            <a href="#"><p>more-</p></a>
+        </div>
+        <div class="col-3 text-center">
+            <h5>Top Cities</h5>
+            <p>hyderabad </p>
+            <p>Banglore </p>
+            <p>Pune </p>
+            <p>Mumbai </p>
+            <a href="#"><p>more-</p></a>
+        </div>
+        <div class="col-3 text-center">
+            <h5>Top RTC's</h5>
+            <p>APSRTC</p>
+            <p>MSRTC</p>
+            <p>HRTC</p>
+            <p>UPSRTC</p>
+            <a href="#"><p>more-</p></a>
+        </div>
+        <div class="col-3 text-center">
+            <h5>Tempo Travellers in Cities</h5>
+            <p>Tempo Travellers in Hyderabad </p>
+            <p>Tempo Travellers in Banglore</p>
+            <p>Tempo Travellers in Pune</p>
+            <p>Tempo Travellers in Mumbai</p>
+            <a href="#"><p>more-</p></a>
+        </div>
+
+    </div>
+</div>
+
+<!--footer section-->
+<div class="container-fluid" id="footer">
+    <div class="row justify-content-center text-center pt-4">
+        <div class="col-3 text-center">
+            <h5 class="footerPara">About dream traveller</h5>
+            <p>About us</p>
+            <p>Sitemap</p>
+            <p>offers</p>
+            <p>Carriers</p>
+            <p>Values</p>
+        </div>
+        <div class="col-2 text-center">
+            <h5 class="footerPara">Info</h5>
+            <p>T & C </p>
+            <p>Privacy Policy</p>
+            <p>FAQ</p>
+            <p>Blog</p>
+            <p>Insurence Partener</p>
+        </div>
+        <div class="col-2 text-center">
+            <h5 class="footerPara">Global Sites</h5>
+            <p>India</p>
+            <p>Singapore</p>
+            <p>Malaysia</p>
+            <p>Peru</p>
+            <p>Colombia</p>
+        </div>
+        <div class="col-5 text-center">
+            <h5 class="footerPara">Dream Traveller</h5>
+            <p>Dream Traveller is the world's largest online tourist ticket booking service trusted by over 17 million
+                happy customers globally . redBus offers bus ticket booking through its website,
+                iOS and Android mobile apps for all major routes.</p>
+            <i class="fab fa-twitter" style="font-size:24px"></i>
+            <i class="fab fa-facebook pl-2" style="font-size:24px"></i>
+            <i class="fab fa-instagram pl-2" style="font-size:24px"></i>
+        </div>
+    </div>
+</div>
+</body>
+</html>
